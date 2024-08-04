@@ -1,0 +1,14 @@
+[
+    {
+        "description": "xd",
+        "expiration_date": "2024-08-04"
+    },
+    {
+        "description": "Testing non consumable",
+        "expiration_date": "2024-12-12"
+    },
+    {
+        "description": "canned tomato soup",
+        "expiration_date": "2024-08-13"
+    }
+]
