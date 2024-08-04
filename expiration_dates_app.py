@@ -96,7 +96,7 @@ def show_menu():
     print('3) Delete expiration date')
     print('0) Exit')
 
-def seleccionar_opcion():
+def select_option():
     options = {
         1: see_exp_dates,
         2: add_exp_date,
@@ -115,7 +115,7 @@ def seleccionar_opcion():
 if __name__ == "__main__":
     try:
         check_and_create_json() 
-        seleccionar_opcion()
+        select_option()
     except Exception as e:
         print("An unexpected error occurred:")
         import traceback
